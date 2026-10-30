@@ -239,3 +239,251 @@ label{
     border-bottom: 1px solid rgba(194, 190, 190, 0.71);
     padding: 10px 0;
 }
+
+
+@media (max-width:470px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    body{
+        background-color: aliceblue;
+    }
+    
+    .Header{
+        padding: 25px 0;
+        background-color: rgb(138, 217, 250);
+    }
+    
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .Headerh1{
+        font-family:raleway;
+        color:rgb(40, 37, 38);
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .MessageBox{
+        width: 350px;
+        box-shadow:  0 0 25px rgba(66, 62, 63, 0.488);
+        border-radius: 20px;
+        margin: 200px auto;
+        padding: 50px 0;
+    }
+    
+    
+    .MessageBox ul{
+        list-style: none;
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: normal;
+        display: flex;
+        column-gap: 12px;
+        justify-content: center;
+       
+    }
+    
+    .MessageBox ul li{
+        padding: 12px 24px ;
+        background-color: rgba(183, 225, 233, 0.341);
+        border-radius: 8px;
+       cursor: pointer;
+       transition: 0.1s;
+    }
+    
+    .MessageBox ul li:active{
+        background-color: rgb(167, 189, 190);
+    }
+    
+    
+    .Input{
+        width: 300px;
+       font-size: 16px;
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid rgba(198, 198, 198, 0.737);
+        outline: none;
+        background-color: transparent;
+    }
+    
+    .Inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+    }
+    
+    .inputh1{
+        font-family: raleway;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    label{
+        width: 150px;
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: 500;
+        display: inline-block;
+    }
+    
+    .Inputbtn{
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        background-color: rgb(208, 236, 243);
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 40px 61%;
+    }
+    
+    .inputPage{
+        padding: 50px;
+    }
+    
+
+
+    .spin{
+        width: 80%;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        margin: 40px auto 20px;
+        border-radius: 10px;
+        padding: 26px;
+    }
+    
+    
+    .spinBox{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center; 
+    }
+    
+    
+    .spinCard{
+        width: 190px;
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 8px;
+    }
+    
+    .spinh1{
+        font-family: raleway;
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .spinArea{
+        height: 150px;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    
+    .spinh2{
+        font-family: raleway;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .spinbtn{
+        padding: 10px 18px; 
+        background-color: rgb(211, 231, 249);
+        border: none;
+        border-radius: 8px;
+        font-family: roboto;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 20px 57% ;
+        cursor: pointer;
+    }
+    
+    
+    .corDakat{
+        width: 450px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.2);
+        border-radius: 8px;
+        margin: 0px auto;
+        padding: 30px 0 10px;
+    }
+    
+    .corDakat h2{
+        font-family: raleway;
+        text-align: center;
+    }
+    
+    
+    .corDakatBox{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        margin: 30px 0 0;
+    }
+    
+    .firstOption{
+        font-family: roboto;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 8px 20px;
+        width: 50%;
+        background-color: rgba(215, 241, 247, 0.842);
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    .resultBox{
+        height: 300px;
+        width: 90%;
+        background-color: rgba(211, 240, 253, 0.863);
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .flexBox{
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+    
+    }
+    
+    
+    .resultCard{
+        background-color: rgba(205, 246, 251, 0.928);
+        width: 24%;
+        text-align: center;
+        border: 1px solid rgba(207, 196, 196, 0.846);
+        border-radius: 6px;
+    }
+    
+    .resultp{
+        font-family: raleway;
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: 1px solid rgba(194, 190, 190, 0.71);
+        padding: 10px 0;
+    }
+}
