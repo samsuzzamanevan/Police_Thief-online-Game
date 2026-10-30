@@ -250,7 +250,7 @@ label{
     
     body{
         background-color: aliceblue;
-        overflow-x: hidden ;
+        overflow-x: hidden;
     }
     
     .Header{
@@ -467,14 +467,13 @@ label{
         display: flex;
         column-gap: 20px;
         justify-content: center;
-        flex-wrap: wrap;
-        gap: 35px;
+        gap: 8px;
     }
     
     
     .resultCard{
         background-color: rgba(205, 246, 251, 0.928);
-        width: 80%;
+        width: 28%;
         text-align: center;
         border: 1px solid rgba(207, 196, 196, 0.846);
         border-radius: 6px;
