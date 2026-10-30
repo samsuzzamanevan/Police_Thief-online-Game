@@ -6,6 +6,8 @@
 
 body{
     background-color: aliceblue;
+    overflow-x: hidden ;
+    
 }
 
 .Header{
@@ -124,14 +126,13 @@ label{
 
 
 .spinBox{
-    display: flex;
-    column-gap: 2%;
+    display: flex;;
     justify-content: center; 
 }
 
 
 .spinCard{
-    width: 190px;
+    width: 90%;
     border: 1px solid rgb(219, 219, 219);
   
 }
@@ -208,11 +209,10 @@ label{
 
 
 .resultBox{
-    height: 300px;
-    width: 90%;
+    width: 80%;
     background-color: rgba(211, 240, 253, 0.863);
     margin: 20px auto;
-    padding: 20px;
+    padding:  20px;
     border-radius: 10px;
 }
 
@@ -239,6 +239,13 @@ label{
     border-bottom: 1px solid rgba(194, 190, 190, 0.71);
     padding: 10px 0;
 }
+.resultp1{
+    font-family: raleway;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(194, 190, 190, 0.71);
+    padding: 10px 0;
+}
 
 
 @media (max-width:520px) {
@@ -247,9 +254,7 @@ label{
         padding: 0;
     }
     
-    
     body{
-        background-color: aliceblue;
         overflow-x: hidden;
     }
     
@@ -273,24 +278,24 @@ label{
     .Headerh1{
         font-family:raleway;
         color:rgb(40, 37, 38);
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 600;
         text-align: center;
     }
     
     .MessageBox{
-        width: 350px;
+        width: 80%;
         box-shadow:  0 0 25px rgba(66, 62, 63, 0.488);
         border-radius: 20px;
-        margin: 200px auto;
-        padding: 50px 0;
+        margin: 200px auto ;
+        padding: 30px 0;
     }
     
     
     .MessageBox ul{
         list-style: none;
         font-family: roboto;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: normal;
         display: flex;
         column-gap: 12px;
@@ -299,7 +304,7 @@ label{
     }
     
     .MessageBox ul li{
-        padding: 12px 24px ;
+        padding: 12px 10px ;
         background-color: rgba(183, 225, 233, 0.341);
         border-radius: 8px;
        cursor: pointer;
@@ -312,9 +317,9 @@ label{
     
     
     .Input{
-        width: 300px;
-       font-size: 16px;
-        padding: 8px;
+        width: 150px;
+        font-size: 14px;
+        padding: 8px 4px;
         border-radius: 6px;
         border: 1px solid rgba(198, 198, 198, 0.737);
         outline: none;
@@ -326,6 +331,7 @@ label{
         flex-direction: column;
         gap: 35px;
         align-items: center;
+        overflow-x: hidden;
     }
     
     .inputh1{
@@ -336,12 +342,16 @@ label{
         margin-bottom: 40px;
     }
     
+    
+
+
     label{
-        width: 150px;
+        width: 100px;
         font-family: roboto;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 500;
         display: inline-block;
+        margin-bottom:15px ;
     }
     
     .Inputbtn{
@@ -352,11 +362,12 @@ label{
         font-family: roboto;
         font-size: 18px;
         font-weight: normal;
-        margin: 40px 61%;
+        margin: 40px 0 0;
     }
     
     .inputPage{
-        padding: 50px;
+        padding: 50px 0;
+        overflow-x: hidden;
     }
     
 
@@ -366,7 +377,7 @@ label{
         box-shadow: 0 0 15px rgba(0,0,0,0.2);
         margin: 40px auto 20px;
         border-radius: 10px;
-        padding: 26px;
+        padding: 20% 0 10%;
     }
     
     
@@ -414,17 +425,18 @@ label{
         font-family: roboto;
         font-size: 16px;
         font-weight: 500;
-        margin: 20px 57% ;
+        margin: 20px 0 0;
         cursor: pointer;
     }
     
     
     .corDakat{
-        width: 95%;
+        width: 90%;
         box-shadow: 0 0 25px rgba(0,0,0,0.2);
         border-radius: 8px;
         margin: 0px auto;
         padding: 30px 0 10px;
+        overflow-x: hidden;
     }
     
     .corDakat h2{
@@ -456,15 +468,15 @@ label{
     
     
     .resultBox{
-        width: 90%;
-        background-color: rgba(211, 240, 253, 0.863);
+        background-color: rgba(6, 48, 67, 0.863);
         margin: 20px auto;
-        padding: 20px;
         border-radius: 10px;
     }
     
     .flexBox{
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         column-gap: 20px;
         justify-content: center;
         gap: 8px;
@@ -473,17 +485,27 @@ label{
     
     .resultCard{
         background-color: rgba(205, 246, 251, 0.928);
-        width: 28%;
+        width: auto;
         text-align: center;
-        border: 1px solid rgba(207, 196, 196, 0.846);
-        border-radius: 6px;
+        display: flex;
+        column-gap: 5px;
+        flex-wrap: wrap;
+        border-radius: 0;
     }
     
     .resultp{
         font-family: raleway;
-        font-size: 18px;
-        font-weight: 500;
-        border-bottom: 1px solid rgba(194, 190, 190, 0.71);
-        padding: 10px 0;
+        font-size: 12px;
+        font-weight: 400;
+        border-left: 1px solid rgba(194, 190, 190, 0.71);
+        padding: 1px 2px;
+        
+    }
+    .resultp1{
+        font-family: raleway;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 1px 2px;
+        
     }
 }

@@ -59,19 +59,19 @@ function FirstPage() {
                     <div className='flexBox'>
 
                         <div className='resultCard'>
-                            <Peragraph paragraphText='First' className='resultp'></Peragraph>
-                            <Peragraph paragraphText='First' className='resultp'></Peragraph>
-                        </div>
-                        <div className='resultCard'>
-                            <Peragraph paragraphText='First' className='resultp'></Peragraph>
+                            <Peragraph paragraphText='First' className='resultp1'></Peragraph>
                             <Peragraph paragraphText='First' className='resultp'></Peragraph>
                         </div>
                         <div className='resultCard'>
-                            <Peragraph paragraphText='First' className='resultp'></Peragraph>
+                            <Peragraph paragraphText='First' className='resultp1'></Peragraph>
                             <Peragraph paragraphText='First' className='resultp'></Peragraph>
                         </div>
                         <div className='resultCard'>
+                            <Peragraph paragraphText='First' className='resultp1'></Peragraph>
                             <Peragraph paragraphText='First' className='resultp'></Peragraph>
+                        </div>
+                        <div className='resultCard'>
+                            <Peragraph paragraphText='First' className='resultp1'></Peragraph>
                             <Peragraph paragraphText='First' className='resultp'></Peragraph>
                         </div>
 

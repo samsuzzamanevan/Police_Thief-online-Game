@@ -9,19 +9,19 @@ function Input() {
                 <div className='container'>
                     <Heading1 headingText='Input Field' className='inputh1'></Heading1>
                     <div className='Inputs'>
-                        <div>
+                        <div className='perent'>
                             <label htmlFor="first">First Player : </label>
                             <input type="text" className='Input' placeholder='First Player' id='first' />
                         </div>
-                        <div>
+                        <div className='perent'>
                             <label htmlFor="second">Second Player : </label>
                             <input type="text" className='Input' placeholder='Second Player' id='second' />
                         </div>
-                        <div>
+                        <div className='perent'>
                             <label htmlFor="third">Third Player : </label>
                             <input type="text" className='Input' placeholder='Third Player' id='third' />
                         </div>
-                        <div>
+                        <div className='perent'>
                             <label htmlFor="fourth">Fourth Player : </label>
                             <input type="text" className='Input' placeholder='Fourth Player' id='fourth' />
                         </div>
