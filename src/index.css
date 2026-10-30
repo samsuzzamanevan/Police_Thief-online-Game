@@ -241,7 +241,7 @@ label{
 }
 
 
-@media (max-width:470px) {
+@media (max-width:520px) {
     *{
         margin: 0;
         padding: 0;
@@ -250,6 +250,7 @@ label{
     
     body{
         background-color: aliceblue;
+        overflow-x: hidden ;
     }
     
     .Header{
@@ -258,7 +259,7 @@ label{
     }
     
     .container{
-        width: 100%;
+        width: 95%;
         margin: 0 auto;
     }
     
@@ -419,7 +420,7 @@ label{
     
     
     .corDakat{
-        width: 450px;
+        width: 95%;
         box-shadow: 0 0 25px rgba(0,0,0,0.2);
         border-radius: 8px;
         margin: 0px auto;
@@ -455,7 +456,6 @@ label{
     
     
     .resultBox{
-        height: 300px;
         width: 90%;
         background-color: rgba(211, 240, 253, 0.863);
         margin: 20px auto;
@@ -467,13 +467,14 @@ label{
         display: flex;
         column-gap: 20px;
         justify-content: center;
-    
+        flex-wrap: wrap;
+        gap: 35px;
     }
     
     
     .resultCard{
         background-color: rgba(205, 246, 251, 0.928);
-        width: 24%;
+        width: 80%;
         text-align: center;
         border: 1px solid rgba(207, 196, 196, 0.846);
         border-radius: 6px;
