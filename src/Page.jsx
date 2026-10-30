@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect,useState } from 'react'
 import './index.css'
 import Heading1 from './Layouts/Heading1'
 import MainPage from './Pages/MainPage'
@@ -7,10 +7,60 @@ import FirstPage from './Pages/FirstPage'
 
 function Page() {
 
-    let [num,setNum] = useState(2)
-    let pages = [<MainPage/>,<Input/>,<FirstPage/>]
+
+  let [first, setFirst] = useState('')
+  let [second, setSecond] = useState('')
+  let [third, setThird] = useState('')
+  let [fourth, setFourth] = useState('')
+
+  let [arr,setArr] =  useState(
+    JSON.parse(localStorage.getItem('arr')) || []
+  )
 
 
+
+  let [num,setNum] = useState(0)
+
+
+  useEffect(() => {
+    localStorage.setItem('arr', JSON.stringify(arr))
+  }, [arr])
+
+  function collect(){
+    setArr(oldvalue=>{
+      let newvalue = [first,second,third,fourth]
+      return newvalue
+    })
+      setNum(2)
+      setFirst('')
+      setSecond('')
+      setThird('')
+      setFourth('')
+  }
+
+
+
+
+    
+  
+  let pages = [<MainPage setNum={setNum} num={num}/>,
+    <Input
+    first={first}
+    second={second}
+    third={third}
+    fourth={fourth}
+    setFirst={setFirst}
+      setSecond={setSecond}
+      setThird={setThird}
+      setFourth={setFourth}
+      setNum={setNum}
+      collect = {collect}
+    />,
+    <FirstPage
+      arr = {arr}
+      />]
+
+      
   return (
     <>
       <div>
@@ -27,12 +77,13 @@ function Page() {
 
 
         {
-            pages[num]
+          pages[num]
         }
 
       </div>
     </>
   )
 }
+
 
 export default Page
